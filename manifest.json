@@ -1,10 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "food safety check",
-  "description": "This extension fetches information from Vancouver Coastal Health",
+  "name": "SPPH Weekly Newsletter Generator",
+  "description": "This extension generates the newsletter",
   "version": "1.0",
-
 
   "browser_action": {
     "default_icon": "icon.png",
@@ -13,8 +12,8 @@
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/",
-    "https://inspections.vcha.ca/FoodPremises/Table/",
-    "tabs",
-    "https://maps.googleapis.com/"
+    "http://services.calendar.events.ubc.ca/",
+    "http://*.calendar.events.ubc.ca/",
+    "http://*.events.ubc.ca/"
   ]
 }
